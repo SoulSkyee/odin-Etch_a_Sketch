@@ -1,0 +1,22 @@
+.container {
+    /* 1. aktifin flexbox */
+    display: flex;
+    /* 2. ngewrap flexnya */
+    flex-wrap: wrap;
+
+    /* kasih ukuran biar rapi */
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+
+.square {
+    /* 3. hitung lebarnya: 100% dibagi 6 */
+    width: calc(100%/16);
+    height: calc(100%/16);
+
+    /* tambahin border buat kotaknya */
+    border: 1px solid grey;
+    /* fungsinya untuk kalkulasi biar gak pusing aje. */
+    box-sizing: border-box;
+}
