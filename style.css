@@ -1,3 +1,7 @@
+.btn {
+    color: blue;
+}
+
 .container {
     /* 1. aktifin flexbox */
     display: flex;
